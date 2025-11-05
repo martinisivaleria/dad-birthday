@@ -40,10 +40,10 @@ span {
     color: transparent;
 }
 
-.space {
-    margin-right: 1rem;
+.word {
+  display: flex;          /* tiene le lettere della parola sulla stessa riga */
+  gap: 0.2em;             /* spazio tra le lettere */
 }
-
 
 .head {
     position: absolute;
@@ -62,4 +62,5 @@ span {
     transform: scale(1.08);
 
   }
+
 
