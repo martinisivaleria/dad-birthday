@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-content: center;
     margin: 1rem;
+    flex-wrap: wrap;
     
 }
 
@@ -58,4 +59,5 @@ span {
   .head:active {
     cursor: grabbing;
     transform: scale(1.08);
+
   }
